@@ -1,4 +1,6 @@
-# hello-docker-react
+# Reference
+This is based on: <a href="https://github.com/Zyoruk/Simple-React-JS-Composer">Simple React JS</a> which was forked from: <a href="https://github.com/lopezator/hello-docker-react">hello-docker-react</a>
+# simple-react
 Your React.js environment in just one command using <a href="https://github.com/facebookincubator/create-react-app">create-react-app</a>, docker and yarn.
 
 # Docker && docker-compose installation instructions:
@@ -19,16 +21,16 @@ Just run:
 
 And wait until you see the following in the console:
 
-    hello-docker-react    | Starting the development server...
-    hello-docker-react    | 
-    hello-docker-react    | Compiled successfully!
-    hello-docker-react    | 
-    hello-docker-react    | The app is running at:
-    hello-docker-react    | 
-    hello-docker-react    |   http://localhost:3000/
-    hello-docker-react    | 
-    hello-docker-react    | Note that the development build is not optimized.
-    hello-docker-react    | To create a production build, use yarn run build.
+    simple-react    | Starting the development server...
+    simple-react    | 
+    simple-react    | Compiled successfully!
+    simple-react    | 
+    simple-react    | The app is running at:
+    simple-react    | 
+    simple-react    |   http://localhost:3000/
+    simple-react    | 
+    simple-react    | Note that the development build is not optimized.
+    simple-react    | To create a production build, use yarn run build.
 
 * To gracefully stop undetached run just press CTRL+C
 
@@ -54,11 +56,11 @@ Stop a detached mode run:
 
 Run commands into your container without going into, from your host machine:
 
-* $ docker-compose exec hello-docker-react mycommand
+* $ docker-compose exec simple-react mycommand
 
 Enter into your container to run commands inside it (ssh-like):
 
-* $ docker-compose exec hello-docker-react bash
+* $ docker-compose exec simple-react bash
 
 Exit your container, and go back to your host machine:
 
